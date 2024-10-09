@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Horunbek</title>
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="flex justify-between p-5">
+      <article class="">
+        <a href="" class="text-3xl uppercase">HotCoffee</a>
+      </article>
+      <article class="">
+        <input
+          type="text"
+          class="p-2 rounded-md border-2 border-black-900 outline-none px-5 hidden md:block"
+          placeholder="Search..."
+        />
+      </article>
+      <article class="flex gap-5 item-center">
+        <a href="" class="block px-1">Home</a>
+        <a href="" class="block px-1">Articles</a>
+        <a href="" class="block px-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"
+            />
+          </svg>
+        </a>
+        <a href="" class="block px-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"
+            />
+          </svg>
+        </a>
+        <a href="" class="block px-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.312 12.644c-.972-1.189-3.646-4.212-4.597-5.284l-1.784 1.018 4.657 5.35c.623.692.459 1.704-.376 2.239-.773.497-5.341 3.376-6.386 4.035-.074-.721-.358-1.391-.826-1.948-.469-.557-6.115-7.376-7.523-9.178-.469-.601-.575-1.246-.295-1.817.268-.549.842-.918 1.43-.918.919 0 1.408.655 1.549 1.215.16.641-.035 1.231-.623 1.685l1.329 1.624 7.796-4.446c1.422-1.051 1.822-2.991.93-4.513-.618-1.053-1.759-1.706-2.978-1.706-1.188 0-.793-.016-9.565 4.475-1.234.591-2.05 1.787-2.05 3.202 0 .87.308 1.756.889 2.487 1.427 1.794 7.561 9.185 7.616 9.257.371.493.427 1.119.15 1.673-.277.555-.812.886-1.429.886-.919 0-1.408-.655-1.549-1.216-.156-.629.012-1.208.604-1.654l-1.277-1.545c-.822.665-1.277 1.496-1.377 2.442-.232 2.205 1.525 3.993 3.613 3.993.596 0 1.311-.177 1.841-.51l9.427-5.946c.957-.664 1.492-1.781 1.492-2.897 0-.744-.24-1.454-.688-2.003zm-8.292-10.492c.188-.087.398-.134.609-.134.532 0 .997.281 1.243.752.312.596.226 1.469-.548 1.912l-5.097 2.888c-.051-1.089-.579-2.081-1.455-2.732l5.248-2.686zm-2.374 12.265l.991-2.691.813 1.017-.445 1.433 1.782.238.812 1.015-3.399-.321-.554-.691zm5.481-3.076l.552.691-.99 2.691-.812-1.015.44-1.438-1.778-.232-.812-1.016 3.4.319z"
+            />
+          </svg>
+        </a>
+      </article>
+    </nav>
+    <!-- nav end -->
+    <!-- body -->
+    <!-- 1 -->
+    <!--section start-->
+    <section class="bg-gray-100">
+      <div class="container mx-auto py-32 flex justify-between item-center">
+        <div class="w-1/2 p-5">
+          <div class="flex flex-wrap">
+            <h1 class="text-8xl mt-10">Make better coffee</h1>
+            <img
+              src="https://i.pinimg.com/originals/e0/f7/67/e0f7670e7fcff75f016d8b3a5f63734a.png"
+              width="100px"
+              class="object-cover"
+              alt=""
+            />
+          </div>
+          <p class="text-gray-700 text-4xl mt-10">why learn how to blog??</p>
+        </div>
+        <div class="">
+          <img
+            src="https://raw.githubusercontent.com/DepressiaGitHub/1337837-play-html-1/module2-task2/1-invitation/img/picture-2.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!--section end-->
+    <!--section start-->
+    <section
+      class="w-[1200px] text-gray-400 m-auto h-auto mt-10 p-5 bg-gray-100 grid grid-cols-3 gap-10"
+    >
+      <div
+        class="w-full col-span-3 border-2 rounded-md flex items-center justify-center"
+      >
+        <div class="text w-[50%] px-10">
+          <h1 class="text-4xl text-gray-600">long established</h1>
+          <p class="mt-2">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that....
+          </p>
+        </div>
+        <div class="">
+          <img class="" src="image 1.png" alt="" />
+        </div>
+      </div>
+      <div class="w-full col-span-1 p-5">
+        <img src="image 2.png" class="w-full h-auto" alt="" />
+        <h1 class="text-3xl mt-3 text-gray-600">long established</h1>
+        <p class="text-1xl mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that....
+        </p>
+        <div class="flex items-center justify-between text-1xl mt-3">
+          <p>May 20th 2020</p>
+          <button class="font-bold text-gray-700">Read more</button>
+        </div>
+      </div>
+      <div class="w-full col-span-1 p-5">
+        <img src="image 4.png" class="w-full h-auto" alt="" />
+        <h1 class="text-3xl mt-3 text-gray-600">long established</h1>
+        <p class="text-1xl mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that....
+        </p>
+        <div class="flex items-center justify-between text-1xl mt-3">
+          <p>May 20th 2020</p>
+          <button class="font-bold text-gray-700">Read more</button>
+        </div>
+      </div>
+      <div class="w-full col-span-1 p-5">
+        <img src="image 5.png" class="w-full h-auto" alt="" />
+        <h1 class="text-3xl mt-3 text-gray-600">long established</h1>
+        <p class="text-1xl mt-3">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that....
+        </p>
+        <div class="flex items-center justify-between text-1xl mt-3">
+          <p>May 20th 2020</p>
+          <button class="font-bold text-gray-700">Read more</button>
+        </div>
+      </div>
+      <div
+        class="w-full col-span-3 border-2 rounded-md flex items-center justify-center"
+      >
+        <div class="text w-[50%] px-10">
+          <h1 class="text-4xl text-gray-600 font-bold">What is Lorem Ipsum?</h1>
+          <p class="mt-2 text-2xl">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution...
+          </p>
+          <div class="flex items-center justify-between text-1xl mt-3">
+            <p>May 20th 2020</p>
+            <button class="font-bold text-gray-700">Read more</button>
+          </div>
+        </div>
+        <div class="">
+          <img class="" src="image 7.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--section end-->
+  </body>
+</html>
